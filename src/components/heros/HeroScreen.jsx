@@ -37,7 +37,7 @@ export const HeroScreen = ({ history }) => {
             <div className="row">
                 <div className="col-md-12">
                     <div className="hero">
-                        <div className="image-rapper animate__animated animate__fadeInLeft">
+                        <div className={`image-wrapper animate__animated animate__fadeInLeft ${brand}`}>
                             <img src={ loadImage(`${ id }.jpg`) } alt={ superhero } className="card-img"/>
                         </div>
                         <div className="data">
